@@ -1,3 +1,7 @@
+# Picsum listing
+
+I'm starting from @cassiddo's boiler plate to make an app that retrieves pictures from picsum.photos and show them listed and also each photo's information.
+
 # Next + Netlify Starter
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ed50f56e-4fc2-4c98-8b66-1e5074c6f3d3/deploy-status)](https://app.netlify.com/sites/next-starter/deploys)
