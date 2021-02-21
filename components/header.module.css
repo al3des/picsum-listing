@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  padding: 2em 0;
+}
+
+.logo {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  list-style: none;
+  margin-left: 1em;
+  text-transform: uppercase;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav a:visited {
+  color: inherit;
+}

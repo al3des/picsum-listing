@@ -1,5 +1,6 @@
-import Link from "next/link";
-import styles from "./ProductItem.module.css";
+import Link from "next/link"
+import Image from "next/image"
+import styles from "./ProductItem.module.css"
 
 export default function ProductItem({ image }) {
   return (
@@ -7,13 +8,16 @@ export default function ProductItem({ image }) {
       <Link href={`/products/[productId]?productId=${image.id}`}>
         <a>
           {
-            <img
+            <Image
               src={`https://picsum.photos/id/${image.id}/300`}
+              width={300}
+              height={300}
+              layout="responsive"
               alt={`Photo by ${image.author}`}
             />
           }
         </a>
       </Link>
     </div>
-  );
+  )
 }
