@@ -1,4 +1,8 @@
+Live @
+
 # Picsum listing
+
+Listing images from picsum and display image information and link to picsum original link
 
 I'm starting from [Cassidy Williams - cassiddo's](https://github.com/cassidoo) boiler plate [template](https://github.com/cassidoo/next-netlify-starter) to make an app that retrieves pictures from picsum.photos and show them listed and also each photo's information.
 

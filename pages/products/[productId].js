@@ -1,15 +1,7 @@
 import Layout from "@components/Layout"
 import Image from "next/image"
 
-import { useRouter } from "next/router"
-
 export default function productId({ image }) {
-  let router = useRouter()
-
-  if (router.isFallback) {
-    return <h1>Loading... </h1>
-  }
-
   return (
     <Layout>
       <div>
@@ -56,6 +48,6 @@ export async function getStaticPaths() {
 
   return {
     paths,
-    fallback: true,
+    fallback: "blocking",
   }
 }
